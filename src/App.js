@@ -5,7 +5,8 @@ import { Route } from 'react-router-dom';
 import './App.css';
 
 // components (similar to web pages)
-import Header from './components/Header';
+// import Header from './components/Header';
+import NavDropdownExample from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
@@ -16,7 +17,8 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <Header />
+        {/* <Header /> */}
+        <NavDropdownExample />
 
           <Route exact path='/' component={ About }/>
 
