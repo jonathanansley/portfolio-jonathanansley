@@ -9,7 +9,7 @@ export default class Skills extends React.Component {
 
       <div>
 
-        Skills
+        <h1>Skills</h1>
 
         <ul>
 
