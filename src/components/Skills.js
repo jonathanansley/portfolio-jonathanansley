@@ -1,7 +1,14 @@
 import React from 'react';
 
 // icons
-import github from '../imgs/github.png';
+import css from '../imgs/skills/css.png';
+import html from '../imgs/skills/html.png';
+import javascript from '../imgs/skills/javascript.jpg';
+import mongodb from '../imgs/skills/mongodb.png';
+import express from '../imgs/skills/express.png';
+import react from '../imgs/skills/react.png';
+import nodejs from '../imgs/skills/nodejs.png';
+import mern from '../imgs/skills/mern.png';
 
 export default class Skills extends React.Component {
   render() {
@@ -11,18 +18,22 @@ export default class Skills extends React.Component {
 
         <h1>Skills</h1>
 
+
+        <div className='skill'>
+          <h3>JavaScript</h3>
+          <img src={javascript} className='skill-icon' alt="JavaScript" />
+        </div>
+
+
+        <div className='skill'>
+          <h3>CSS</h3>
+          <img src={css} className='skill-icon' alt="CSS" />
+        </div>
+
+{/* 
         <ul>
-
-          <li>
-            JavaScript
-          </li>
-
           <li>
             HTML5
-          </li>
-
-          <li>
-            CSS3
           </li>
 
           <li>
@@ -65,7 +76,7 @@ export default class Skills extends React.Component {
             express
           </li>
 
-          </ul>
+          </ul> */}
 
         </div>
 
