@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import logo from './logo.svg';
+
+// styles
 import './App.css';
+
+// components (similar to web pages)
 import Header from './components/Header';
-import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
@@ -16,18 +18,9 @@ class App extends React.Component {
 
         <Header />
 
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React</h1>
-          </header>
+          <Route exact path='/' component={ About }/>
 
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
-
-          <Route exact path='/' component={ Home }/>
-
-          <Route path='/about' component={ About }/>
+          <Route path='/about' component={ About }/> */}
 
           <Route path='/skills' component={ Skills }/>
 
