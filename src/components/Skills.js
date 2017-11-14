@@ -1,4 +1,5 @@
 import React from 'react';
+import { PageHeader } from 'react-bootstrap';
 
 // icons
 import css from '../imgs/skills/css.png';
@@ -16,8 +17,9 @@ export default class Skills extends React.Component {
 
       <div>
 
-        <h1>Skills</h1>
-
+            <PageHeader>
+              Skills
+            </PageHeader>
 
         <div className='skill'>
           <h3>JavaScript</h3>
@@ -30,7 +32,7 @@ export default class Skills extends React.Component {
           <img src={css} className='skill-icon' alt="CSS" />
         </div>
 
-{/* 
+{/*
         <ul>
           <li>
             HTML5

@@ -1,4 +1,5 @@
 import React from 'react';
+import { PageHeader, Jumbotron } from 'react-bootstrap';
 
 // icons
 import headshot from '../imgs/headshot.jpg';
@@ -8,24 +9,33 @@ export default class About extends React.Component {
     return (
       <div>
 
-        <h1>About</h1>
+      <PageHeader>
+        About
+      </PageHeader>
 
-        <a>
-          <img src={headshot} className='icon' alt="Jonathan Ansley" />
-        </a>
+      <Jumbotron>
 
-        <h2>
-          Welcome to Jonathan Ansley's portfolio.
-        </h2>
+            <a>
+              <img src={headshot} className='icon' alt="Jonathan Ansley" />
+            </a>
 
-        <span>
-          Full stack web developer residing in Arlington, Virginia.
-          I have 18 years of experience creating databases, writing software, trouble-shooting, and managing projects.
-          Have both a technical and a business background and can help your organization transform clunky systems into something you actually want to use.
-          Started working with computers when I was 12 years old, and I have changed with the technology. For now, I prefer web technologies on the back end or the full stack.
-        </span>
+            <h2>
+              Welcome to Jonathan Ansley portfolio.
+            </h2>
 
-      </div>
+            <span>
+              Full stack web developer residing in Arlington, Virginia.
+              I have 18 years of experience creating databases, writing software, trouble-shooting, and managing projects.
+              Have both a technical and a business background and can help your organization transform clunky systems into something you actually want to use.
+              Started working with computers when I was 12 years old, and I have changed with the technology. For now, I prefer web technologies on the back end or the full stack.
+            </span>
+
+        </Jumbotron>
+
+        </div>
+
     );
+
   }
+
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { PageHeader, Grid, Row, Col, Thumbnail, Button } from 'react-bootstrap';
 
 // icons
 import shoemarket from '../imgs/shoemarket.png';
@@ -10,7 +11,113 @@ export default class Portfolio extends React.Component {
     return (
       <div id="portfolio">
 
-			  <h1>Portfolio</h1>
+        <PageHeader>
+          Portfolio
+        </PageHeader>
+
+        <Grid>
+
+          <Row>
+
+            <Col xs={6} md={4}>
+
+              <Thumbnail src='../imgs/shoemarket.png' alt='ShoeMarket'>
+              // <img src={shoemarket} className='icon' alt="ShoeMarket app on Heroku" />
+
+                <h3>ShoeMarket</h3>
+
+                <p>
+                  Description: ShoeMarket helps sellers of athletic shoes manage the inventory, sales, and clients.
+                </p>
+
+                <p>
+
+                  <Button bsStyle="primary">
+                    App
+
+                    <a href="https://fierce-reef-37071.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    </a>
+
+                  </Button>&nbsp;
+
+                  <Button bsStyle="default" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>
+                    Code on GitHub
+                  </Button>
+
+                </p>
+
+              </Thumbnail>
+
+            </Col>
+
+
+
+
+
+            <Col xs={6} md={4}>
+
+              <Thumbnail src='../imgs/surchport.png' alt="242x200">
+                <h3>
+                  SurchPort
+                </h3>
+
+                <p>
+                  Description
+                </p>
+
+                <p>
+
+                  <Button bsStyle="primary">
+                    App
+                  </Button>&nbsp;
+
+                  <Button bsStyle="default">
+                    Code on GitHub
+                  </Button>
+
+                </p>
+              </Thumbnail>
+            </Col>
+
+
+
+
+
+            <Col xs={6} md={4}>
+              <Thumbnail src='../imgs/traintimes.png' alt="242x200">
+                <h3>
+                  TrainTimes
+                </h3>
+
+                <p>
+                  Description: TrainTimes incorporates Firebase to host arrival and departure data. The app  retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.\
+                </p>
+
+                <p>
+
+                  <Button bsStyle="primary">
+                    App
+                  </Button>&nbsp;
+
+                  <Button bsStyle="default">
+                    Code on GitHub
+                  </Button>
+
+                </p>
+              </Thumbnail>
+
+            </Col>
+
+          </Row>
+
+        </Grid>
+      );
+
+
+
+
+
+
 
         {/* //ShoeMarket */}
 				<div id="port-group">
@@ -31,7 +138,7 @@ export default class Portfolio extends React.Component {
 
 							<div className='port-desc'>
 
-							<a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>Github Link</a>
+							<a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>Code on GitHub</a>
 
 								<p>
 									Description: ShoeMarket helps sellers of athletic shoes manage the inventory, sales, and clients.
@@ -69,7 +176,7 @@ export default class Portfolio extends React.Component {
 
 							<div className='port-desc'>
 
-							<a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/johnsaugy/SurchPort'>Github Link</a>
+							<a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/johnsaugy/SurchPort'>Code on GitHub</a>
 
 								<p>
 									Description: SurchPort is A Better Way to Discover Your New Favorite Spot. It allows users to Search, Compare, and Save any place you'd ever want to visit.</p>
@@ -105,7 +212,7 @@ export default class Portfolio extends React.Component {
 
               <div className='port-desc'>
 
-              <a className='git-link' target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/TrainTimes'>Github Link</a>
+              <a className='git-link' target='_blank' rel="noopener noreferrer" href='https://.com/jonathanansley/TrainTimes'>Code on GitHub</a>
 
                 <p>
                   Description: TrainTimes incorporates Firebase to host arrival and departure data. The app  retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.
