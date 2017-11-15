@@ -24,7 +24,7 @@ export default class Portfolio extends React.Component {
 							<div className="port-item">
 
                 <a href="https://fierce-reef-37071.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <img src={shoemarket} className='icon' alt="ShoeMarket app on Heroku" />
+                  <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket app on Heroku" />
                 </a>
 
 							</div>
@@ -62,7 +62,7 @@ export default class Portfolio extends React.Component {
 							<div className="port-item">
 
                 <a href="https://johnsaugy.github.io/SurchPort/" target="_blank" rel="noopener noreferrer">
-                  <img src={surchport} className='icon' alt="SurchPort app on GitHub pages" />
+                  <img src={surchport} className='icon-portfolio' alt="SurchPort app on GitHub pages" />
                 </a>
 
 							</div>
@@ -98,7 +98,7 @@ export default class Portfolio extends React.Component {
               <div className="port-item">
 
                 <a href="https://fierce-reef-37071.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                  <img src={traintimes} className='icon' alt="ShoeMarket app on Heroku" />
+                  <img src={traintimes} className='icon-portfolio' alt="ShoeMarket app on Heroku" />
                 </a>
 
               </div>

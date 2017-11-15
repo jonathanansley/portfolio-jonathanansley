@@ -21,16 +21,16 @@ export default class Skills extends React.Component {
 
         <div className='skill'>
           <h3>JavaScript</h3>
-          <img src={javascript} className='skill-icon' alt="JavaScript" />
+          <img src={javascript} className='icon-skill' alt="JavaScript" />
         </div>
 
 
         <div className='skill'>
           <h3>CSS</h3>
-          <img src={css} className='skill-icon' alt="CSS" />
+          <img src={css} className='icon-skill' alt="CSS" />
         </div>
 
-{/* 
+{/*
         <ul>
           <li>
             HTML5
