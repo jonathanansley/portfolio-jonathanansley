@@ -17,7 +17,8 @@
 
 .icon-skill {
   /*animation: App-logo-spin infinite 20s linear;*/
-  height: 80px;
+  height: 64px;
+  width: 64px;
   padding: 5px;
 }
 

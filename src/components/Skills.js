@@ -1,15 +1,21 @@
 import React from 'react';
-import { PageHeader } from 'react-bootstrap';
+import { PageHeader, Media } from 'react-bootstrap';
 
 // icons
-import css from '../imgs/skills/css.png';
 import html from '../imgs/skills/html.png';
+import css from '../imgs/skills/css.png';
 import javascript from '../imgs/skills/javascript.jpg';
+
+// MERN icons
+import mern from '../imgs/skills/mern.png';
 import mongodb from '../imgs/skills/mongodb.png';
 import express from '../imgs/skills/express.png';
 import react from '../imgs/skills/react.png';
 import nodejs from '../imgs/skills/nodejs.png';
-import mern from '../imgs/skills/mern.png';
+
+// other icons
+import mysql from '../imgs/skills/mysql.png';
+import jquery from '../imgs/skills/jquery.png';
 
 export default class Skills extends React.Component {
   render() {
@@ -17,68 +23,73 @@ export default class Skills extends React.Component {
 
       <div>
 
-            <PageHeader>
-              Skills
-            </PageHeader>
+        <PageHeader>
+          Skills
+        </PageHeader>
 
-        <div className='skill'>
-          <h3>JavaScript</h3>
-          <img src={javascript} className='icon-skill' alt="JavaScript" />
-        </div>
+          <div>
 
+            <Media.List>
 
-        <div className='skill'>
-          <h3>CSS</h3>
-          <img src={css} className='icon-skill' alt="CSS" />
-        </div>
+              <Media.ListItem>
 
-{/*
-        <ul>
-          <li>
-            HTML5
-          </li>
+                // MERN
+                <Media.Left>
+                  <img src={mern} className='icon-skills' alt='MERN stack' />
+                </Media.Left>
 
-          <li>
-            GitHub
-          </li>
+                <Media.Body>
+                  <Media.Heading>
+                    MERN stack
+                  </Media.Heading>
 
-          <li>
-            PMP
-          </li>
+                  <Media>
 
-          <li>
-            MongoDB
-          </li>
+                    <Media.Left>
+                      <img className='icon-skills' src={mongodb} alt='MongoDB' />
+                    </Media.Left>
 
-          <li>
-            Node.js
-          </li>
+                    <Media.Left>
+                      <img className='icon-skills' src={express} alt='express' />
+                    </Media.Left>
 
-          <li>
-            MySQL
-          </li>
+                    <Media.Left>
+                      <img className='icon-skills' src={react} alt='React.js' />
+                    </Media.Left>
 
-          <li>
-            React.js
-          </li>
+                    <Media.Left>
+                      <img className='icon-skills' src={nodejs} alt='Node.js' />
+                    </Media.Left>
 
-          <li>
-            bootstrap
-          </li>
+                  </Media>
 
-          <li>
-            jquery
-          </li>
+                </Media.Body>
 
-          <li>
-            nodejs
-          </li>
+              </Media.ListItem>
 
-          <li>
-            express
-          </li>
+              <Media.Left>
+                <img className='icon-skills' src={html} alt='HTML5' />
+              </Media.Left>
 
-          </ul> */}
+              <Media.Left>
+                <img className='icon-skills' src={css} alt='CSS' />
+              </Media.Left>
+
+              <Media.Left>
+                <img className='icon-skills' src={javascript} alt='JavaScript' />
+              </Media.Left>
+
+              <Media.Left>
+                <img className='icon-skills' src={mysql} alt='MySQL' />
+              </Media.Left>
+
+              <Media.Left>
+                <img className='icon-skills' src={jquery} alt='JQuery' />
+              </Media.Left>
+
+            </Media.List>
+
+          </div>
 
         </div>
 
