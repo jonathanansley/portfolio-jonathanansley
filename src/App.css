@@ -9,9 +9,21 @@
   color: white;
 }
 
-.icon {
+.icon-footer {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 60px;
+  padding: 5px;
+}
+
+.icon-skill {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+  padding: 5px;
+}
+
+.icon-portfolio {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 250px;
   padding: 5px;
 }
 

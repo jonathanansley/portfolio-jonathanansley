@@ -13,11 +13,11 @@ export default class Footer extends React.Component {
       <div className='footer'>
 
             <a href="https://www.linkedin.com/in/jonathanansley/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} className='icon' alt="Connect with me on LinkedIn" />
+              <img src={linkedin} className='icon-footer' alt="Connect with me on LinkedIn" />
             </a>
 
             <a href="https://github.com/jonathanansley" target="_blank" rel="noopener noreferrer">
-              <img src={github} className='icon' alt="Connect with me on GitHub" />
+              <img src={github} className='icon-footer' alt="Connect with me on GitHub" />
             </a>
 
       </div>
