@@ -29,65 +29,62 @@ export default class Skills extends React.Component {
 
           <div>
 
-            <Media.List>
+            <Grid>
 
-              <Media.ListItem>
+              // MERN
+              <Row>
 
-                // MERN
-                <Media.Left>
+                <Col xs={6} md={4}>
                   <img src={mern} className='icon-skills' alt='MERN stack' />
-                </Media.Left>
+                </Col>
 
-                <Media.Body>
-                  <Media.Heading>
-                    MERN stack
-                  </Media.Heading>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={mongodb} alt='MongoDB' />
+                </Col>
 
-                  <Media>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={express} alt='express' />
+                </Col>
 
-                    <Media.Left>
-                      <img className='icon-skills' src={mongodb} alt='MongoDB' />
-                    </Media.Left>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={react} alt='React.js' />
+                </Col>
 
-                    <Media.Left>
-                      <img className='icon-skills' src={express} alt='express' />
-                    </Media.Left>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={nodejs} alt='Node.js' />
+                </Col>
 
-                    <Media.Left>
-                      <img className='icon-skills' src={react} alt='React.js' />
-                    </Media.Left>
+              </Row>
 
-                    <Media.Left>
-                      <img className='icon-skills' src={nodejs} alt='Node.js' />
-                    </Media.Left>
+              <Row>
 
-                  </Media>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={html} alt='HTML5' />
+                </Col>
 
-                </Media.Body>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={css} alt='CSS' />
+                </Col>
 
-              </Media.ListItem>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={javascript} alt='JavaScript' />
+                </Col>
 
-              <Media.Left>
-                <img className='icon-skills' src={html} alt='HTML5' />
-              </Media.Left>
+              </Row>
 
-              <Media.Left>
-                <img className='icon-skills' src={css} alt='CSS' />
-              </Media.Left>
+              <Row>
 
-              <Media.Left>
-                <img className='icon-skills' src={javascript} alt='JavaScript' />
-              </Media.Left>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={mysql} alt='MySQL' />
+                </Col>
 
-              <Media.Left>
-                <img className='icon-skills' src={mysql} alt='MySQL' />
-              </Media.Left>
+                <Col xs={6} md={4}>
+                  <img className='icon-skills' src={jquery} alt='JQuery' />
+                </Col>
 
-              <Media.Left>
-                <img className='icon-skills' src={jquery} alt='JQuery' />
-              </Media.Left>
+              </Row>
 
-            </Media.List>
+            </Grid>
 
           </div>
 
