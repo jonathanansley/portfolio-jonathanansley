@@ -2,9 +2,9 @@ import React from 'react';
 import { Nav, Navbar, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 
 // icons
-import logo from '../logo.svg';
 import linkedin from '../imgs/linkedin.png';
 import github from '../imgs/github.png';
+import resume from '../imgs/resume.jpg';
 
 export default class Footer extends React.Component {
   render() {
@@ -18,6 +18,10 @@ export default class Footer extends React.Component {
 
             <a href="https://github.com/jonathanansley" target="_blank" rel="noopener noreferrer">
               <img src={github} className='icon-footer' alt="Connect with me on GitHub" />
+            </a>
+
+            <a href="https://docs.google.com/document/d/1Qfe54llYMwSKYcqd2sGlTKX4pfhlfafEMTL4CWBYN4g/edit" target="_blank" rel="noopener noreferrer">
+              <img src={resume} className='icon-footer' alt="Resume" />
             </a>
 
       </div>
