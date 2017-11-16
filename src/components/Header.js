@@ -12,19 +12,19 @@ export default class Header extends React.Component {
 
           <Nav bsStyle="tabs" onSelect={this.handleSelect}>
 
-            <NavItem eventKey="1" title="Item">
+            <NavItem eventKey="1">
               <Link to='/about'>
                 About
               </Link>
             </NavItem>
 
-            <NavItem eventKey="2" title="Item">
+            <NavItem eventKey="2">
               <Link to='/skills'>
                 Skills
               </Link>
             </NavItem>
 
-            <NavItem eventKey="3" title="Item">
+            <NavItem eventKey="3">
               <Link to='/portfolio'>
                 Portfolio
               </Link>

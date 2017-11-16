@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageHeader, Media } from 'react-bootstrap';
+import { PageHeader, Grid, Row, Col } from 'react-bootstrap';
 
 // icons
 import html from '../imgs/skills/html.png';
@@ -31,27 +31,31 @@ export default class Skills extends React.Component {
 
             <Grid>
 
-              // MERN
               <Row>
 
-                <Col xs={6} md={4}>
-                  <img src={mern} className='icon-skills' alt='MERN stack' />
+                <Col xs={6} md={4} className='icon-skill'>
+                  MERN stack
+                  <img src={mern} className='icon-skill' alt='MERN stack' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={mongodb} alt='MongoDB' />
+                  MongoDB
+                  <img className='icon-skill' src={mongodb} alt='MongoDB' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={express} alt='express' />
+                  express
+                  <img className='icon-skill' src={express} alt='express' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={react} alt='React.js' />
+                  React.js
+                  <img className='icon-skill' src={react} alt='React.js' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={nodejs} alt='Node.js' />
+                  Node.js
+                  <img className='icon-skill' src={nodejs} alt='Node.js' />
                 </Col>
 
               </Row>
@@ -59,15 +63,18 @@ export default class Skills extends React.Component {
               <Row>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={html} alt='HTML5' />
+                  HTML5
+                  <img className='icon-skill' src={html} alt='HTML5' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={css} alt='CSS' />
+                  CSS
+                  <img className='icon-skill' src={css} alt='CSS' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={javascript} alt='JavaScript' />
+                  JavaScript
+                  <img className='icon-skill' src={javascript} alt='JavaScript' />
                 </Col>
 
               </Row>
@@ -75,11 +82,13 @@ export default class Skills extends React.Component {
               <Row>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={mysql} alt='MySQL' />
+                  MySQL
+                  <img className='icon-skill' src={mysql} alt='MySQL' />
                 </Col>
 
                 <Col xs={6} md={4}>
-                  <img className='icon-skills' src={jquery} alt='JQuery' />
+                  JQuery
+                  <img className='icon-skill' src={jquery} alt='JQuery' />
                 </Col>
 
               </Row>

@@ -3,10 +3,24 @@
 }
 
 .header {
+  /*width: 100%;*/
   background-color: tan;
   height: 75px;
   padding: 20px;
   color: white;
+  position: fixed;
+  bottom: 100;
+  right: 100;
+  width: 300px;
+  border: 2px solid grey;
+  z-index: 1 !important;
+}
+
+
+.PageHeader {
+    text-align: center;
+    color: red;
+    font-weight: bold;
 }
 
 .icon-footer {
@@ -27,6 +41,10 @@
   height: 242px;
   width: 200px;
   padding: 5px;
+  /*display: block;*/
+  margin: 2 auto;
+  border: 2px solid grey;
+  border-radius: 5%;
 }
 
 .navi{
@@ -36,7 +54,7 @@
 	background: rgba(48,62,78, 0.8) !important;
 	position: fixed !important;
 	top: 0 !important;
-	z-index: 1 !important;
+	/*z-index: 1 !important;*/
 }
 
 .nav-list{

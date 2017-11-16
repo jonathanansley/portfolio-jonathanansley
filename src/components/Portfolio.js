@@ -22,12 +22,15 @@ export default class Portfolio extends React.Component {
             {/* ShoeMarket */}
             <Col xs={6} md={4}>
 
-              <Thumbnail src='../imgs/shoemarket.png' alt='ShoeMarket'>
-                <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket app on Heroku" />
+            <div>
+
+              <Thumbnail>
 
                 <h3>
                   ShoeMarket
                 </h3>
+
+                <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket app on Heroku" target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/" />
 
                 <p>
                   Helps sellers of athletic shoes manage the inventory, sales, and clients.
@@ -39,13 +42,15 @@ export default class Portfolio extends React.Component {
                     App
                   </Button>&nbsp;
 
-                  <Button bsStyle="default" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>
+                  <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>
                     Code on GitHub
-                  </Button>
+                  </Button>&nbsp;
 
                 </p>
 
               </Thumbnail>
+
+            </div>
 
             </Col>
             {/* End of ShoeMarket */}
@@ -55,27 +60,26 @@ export default class Portfolio extends React.Component {
             {/* SurchPort */}
             <Col xs={6} md={4}>
 
+            <h3>
+              SurchPort
+            </h3>
+
+
               <Thumbnail src='../imgs/surchport' alt='SurchPort'>
                 <img src={surchport} className='icon-portfolio' alt="SurchPort app on Heroku" />
 
-                <h3>
-                  SurchPort
-                </h3>
-
                 <p>
-                  A Better Way to Discover Your New Favorite Spot. It allows users to Search, Compare, and Save any place you'd ever want to visit.
+                  A Better Way to Discover Your New Favorite Spot. It allows users to Search, Compare, and Save any place you would ever want to visit.
                 </p>
 
                 <p>
-
                   <Button bsStyle="primary" target="_blank" rel="noopener noreferrer" href='https://johnsaugy.github.io/SurchPort/'>
                     App
                   </Button>&nbsp;
 
-                  <Button bsStyle="default" target='_blank' rel="noopener noreferrer" href='https://github.com/johnsaugy/SurchPort'>
+                  <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/johnsaugy/SurchPort'>
                     Code on GitHub
                   </Button>
-
                 </p>
 
               </Thumbnail>
@@ -88,12 +92,12 @@ export default class Portfolio extends React.Component {
             {/* TrainTimes */}
             <Col xs={6} md={4}>
 
+            <h3>
+              TrainTimes
+            </h3>
+
               <Thumbnail src='../imgs/traintimes.png' alt='TrainTimes'>
                 <img src={traintimes} className='icon-portfolio' alt="TrainTimes app on GitHub pages" />
-
-                <h3>
-                  TrainTimes
-                </h3>
 
                 <p>
                   Incorporates Firebase to host arrival and departure data. The app  retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.\
@@ -105,7 +109,7 @@ export default class Portfolio extends React.Component {
                     App
                   </Button>&nbsp;
 
-                  <Button bsStyle="default" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/TrainTimes'>
+                  <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/TrainTimes'>
                     Code on GitHub
                   </Button>
 
@@ -121,10 +125,6 @@ export default class Portfolio extends React.Component {
         </Grid>
 
       );
-
-
-
-
 
       </div>
 
