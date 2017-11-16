@@ -16,7 +16,7 @@ export default class About extends React.Component {
       <Jumbotron>
 
             <a>
-              <img src={headshot} className='icon' alt="Jonathan Ansley" />
+              <img src={headshot} className='icon-portfolio' alt="Jonathan Ansley" />
             </a>
 
             <h2>
