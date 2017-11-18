@@ -1,7 +1,7 @@
 /* Google Fonts */
 /*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');*/
 
-body{
+body {
 	font-family: "Source Sans Pro", sans-serif;
 	background: #f1f6f7;
 	color: #51838d;
@@ -13,7 +13,7 @@ body{
 
 .menubar {
   /*width: 100%;*/
-  background-color: tan;
+  background-color: orange;
   height: 75px;
   padding: 20px;
   color: white;
@@ -25,7 +25,7 @@ body{
   z-index: 1 !important;
 }
 
-.PageHeader {
+pageheader h2 {
     text-align: center;
     color: red;
     font-weight: bold;
