@@ -6,7 +6,7 @@ import './App.css';
 
 // components (similar to web pages)
 // import Header from './components/Header';
-import NavDropdownExample from './components/Header';
+import NavDropdownExample from './components/Menu';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
