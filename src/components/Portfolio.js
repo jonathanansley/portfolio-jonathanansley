@@ -11,7 +11,7 @@ export default class Portfolio extends React.Component {
     return (
       <div id="portfolio">
 
-        <PageHeader>
+        <PageHeader className="pageheader">
           Portfolio
         </PageHeader>
 
