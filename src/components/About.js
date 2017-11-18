@@ -20,7 +20,7 @@ export default class About extends React.Component {
             </a>
 
             <h2>
-              Welcome to Jonathan Ansley portfolio.
+              Welcome to Jonathan Ansley's portfolio.
             </h2>
 
             <span>
