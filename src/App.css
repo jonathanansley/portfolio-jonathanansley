@@ -12,17 +12,22 @@ body {
 }
 
 .menubar {
-  /*width: 100%;*/
-  background-color: orange;
+	width: 100%;
+	font-family: Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+	font-weight: bold;
+	font-size: 2.0em;
+	transparency: 50%;
+  background-color: red;
   height: 75px;
   padding: 20px;
   color: white;
   position: fixed;
   bottom: 100;
   right: 100;
-  width: 300px;
   border: 2px solid grey;
   z-index: 1 !important;
+	opacity: 0.9;
 }
 
 pageheader h2 {
@@ -35,6 +40,11 @@ pageheader h2 {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 60px;
   padding: 5px;
+	opacity: 0.8;
+}
+
+.icon-footer:hover {
+    opacity: 1.0;
 }
 
 .icon-skill {
@@ -53,6 +63,11 @@ pageheader h2 {
   margin: 2 auto;
   border: 2px solid grey;
   border-radius: 5%;
+	opacity: .8;
+}
+
+.icon-portfolio:hover {
+    opacity: 1.0;
 }
 
 .navi{
