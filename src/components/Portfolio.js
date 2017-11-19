@@ -24,11 +24,11 @@ export default class Portfolio extends React.Component {
 
             <div>
 
-              <Thumbnail>
+              <h3>
+                ShoeMarket
+              </h3>
 
-                <h3>
-                  ShoeMarket
-                </h3>
+              <Thumbnail target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/">
 
                 <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket app on Heroku" target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/" />
 
@@ -37,10 +37,6 @@ export default class Portfolio extends React.Component {
                 </p>
 
                 <p>
-
-                  <Button bsStyle="primary" target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/">
-                    App
-                  </Button>&nbsp;
 
                   <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/ShoeMarket'>
                     Code on GitHub
@@ -64,8 +60,7 @@ export default class Portfolio extends React.Component {
               SurchPort
             </h3>
 
-
-              <Thumbnail src='../imgs/surchport' alt='SurchPort'>
+              <Thumbnail src='../imgs/surchport' alt='SurchPort' target="_blank" rel="noopener noreferrer" href='https://johnsaugy.github.io/SurchPort/'>
                 <img src={surchport} className='icon-portfolio' alt="SurchPort app on Heroku" />
 
                 <p>
@@ -73,9 +68,6 @@ export default class Portfolio extends React.Component {
                 </p>
 
                 <p>
-                  <Button bsStyle="primary" target="_blank" rel="noopener noreferrer" href='https://johnsaugy.github.io/SurchPort/'>
-                    App
-                  </Button>&nbsp;
 
                   <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/johnsaugy/SurchPort'>
                     Code on GitHub
@@ -96,18 +88,14 @@ export default class Portfolio extends React.Component {
               TrainTimes
             </h3>
 
-              <Thumbnail src='../imgs/traintimes.png' alt='TrainTimes'>
+              <Thumbnail src='../imgs/traintimes.png' alt='TrainTimes' target="_blank" rel="noopener noreferrer" href='https://jonathanansley.github.io/TrainTimes'>
                 <img src={traintimes} className='icon-portfolio' alt="TrainTimes app on GitHub pages" />
 
                 <p>
-                  Incorporates Firebase to host arrival and departure data. The app  retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.\
+                  Incorporates Firebase to host arrival and departure data. Retrieves and manipulates this information with Moment.js.
                 </p>
 
                 <p>
-
-                  <Button bsStyle="primary" target="_blank" rel="noopener noreferrer" href='https://jonathanansley.github.io/TrainTimes'>
-                    App
-                  </Button>&nbsp;
 
                   <Button bsStyle="primary" target='_blank' rel="noopener noreferrer" href='https://github.com/jonathanansley/TrainTimes'>
                     Code on GitHub

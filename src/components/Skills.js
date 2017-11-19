@@ -29,31 +29,31 @@ export default class Skills extends React.Component {
 
           <div>
 
-            <Grid>
+            <Grid className='grid'>
 
               <Row>
 
-                <Col xs={6} md={4} className='icon-skill'>
+                {/* <Col xs={6} md={5} className='icon-skill'>
                   MERN stack
                   <img src={mern} className='icon-skill' alt='MERN stack' />
                 </Col>
-
-                <Col xs={6} md={4}>
+ */}
+                <Col xs={6} md={5}>
                   MongoDB
                   <img className='icon-skill' src={mongodb} alt='MongoDB' />
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col xs={6} md={5}>
                   express
                   <img className='icon-skill' src={express} alt='express' />
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col xs={6} md={5}>
                   React.js
                   <img className='icon-skill' src={react} alt='React.js' />
                 </Col>
 
-                <Col xs={6} md={4}>
+                <Col xs={6} md={5}>
                   Node.js
                   <img className='icon-skill' src={nodejs} alt='Node.js' />
                 </Col>
