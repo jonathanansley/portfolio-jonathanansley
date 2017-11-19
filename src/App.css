@@ -11,7 +11,25 @@ body {
   text-align: center;
 }
 
+/*Navbar {
+	position: staticTop;
+}*/
+
+.grid {
+	border: 1px solid grey;
+}
+
+.col {
+	border: 1px solid grey;
+}
+
+.row {
+	border: 1px solid grey;
+}
+
 .menubar {
+	position: staticTop;
+	/*position: fixedTop;*/
 	width: 100%;
 	font-family: Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -19,12 +37,11 @@ body {
 	font-size: 2.0em;
 	transparency: 50%;
   background-color: red;
-  height: 75px;
-  padding: 20px;
+  height: 3.0em;
+  padding: 5px;
   color: white;
-  position: fixed;
-  bottom: 100;
-  right: 100;
+  /*bottom: 10;*/
+  /*right: 100;*/
   border: 2px solid grey;
   z-index: 1 !important;
 	opacity: 0.9;
