@@ -17,6 +17,11 @@ import nodejs from '../imgs/skills/nodejs.png';
 import mysql from '../imgs/skills/mysql.png';
 import jquery from '../imgs/skills/jquery.png';
 
+// education
+import pmp from '../imgs/skills/pmp.png';
+import mba from '../imgs/skills/mba.png';
+import clearance from '../imgs/skills/clearance.png';
+
 export default class Skills extends React.Component {
   render() {
     return (
@@ -89,6 +94,25 @@ export default class Skills extends React.Component {
                 <Col xs={6} md={4}>
                   JQuery
                   <img className='icon-skill' src={jquery} alt='JQuery' />
+                </Col>
+
+              </Row>
+
+              <Row>
+
+                <Col xs={6} md={4}>
+                  Active DoD Secret Clearance
+                  <img className='icon-skill' src={clearance} alt='Active DoD Secret Clearance' />
+                </Col>
+
+                <Col xs={6} md={4}>
+                  Project Management Professional (PMP)®
+                  <img className='icon-skill' src={pmp} alt='Project Management Professional' />
+                </Col>
+
+                <Col xs={6} md={4}>
+                  Master of Business Administration
+                  <img className='icon-skill' src={mba} alt='Master of Business Administration' />
                 </Col>
 
               </Row>
