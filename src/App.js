@@ -17,12 +17,11 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        {/* <Header /> */}
         <NavDropdownExample />
 
           <Route exact path='/' component={ About }/>
 
-          <Route path='/about' component={ About }/> */}
+          <Route path='/about' component={ About }/>
 
           <Route path='/skills' component={ Skills }/>
 
@@ -32,7 +31,9 @@ class App extends React.Component {
 
       </div>
     );
+
   }
+
 }
 
 export default App;

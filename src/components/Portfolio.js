@@ -9,7 +9,7 @@ import traintimes from '../imgs/traintimes.png';
 export default class Portfolio extends React.Component {
   render() {
     return (
-      <div id="portfolio">
+      <div id="portrait">
 
         <PageHeader className="pageheader">
           Portfolio
@@ -28,9 +28,11 @@ export default class Portfolio extends React.Component {
                 ShoeMarket
               </h3>
 
-              <Thumbnail target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/">
+              <Thumbnail>
 
-                <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket app on Heroku" target="_blank" rel="noopener noreferrer" href="https://fierce-reef-37071.herokuapp.com/" />
+                <a href="https://fierce-reef-37071.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                  <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket" title="See my GitHub" />
+                </a>
 
                 <p>
                   Helps sellers of athletic shoes manage the inventory, sales, and clients.
@@ -60,8 +62,11 @@ export default class Portfolio extends React.Component {
               SurchPort
             </h3>
 
-              <Thumbnail src='../imgs/surchport' alt='SurchPort' target="_blank" rel="noopener noreferrer" href='https://johnsaugy.github.io/SurchPort/'>
-                <img src={surchport} className='icon-portfolio' alt="SurchPort app on Heroku" />
+              <Thumbnail>
+
+                <a href='https://johnsaugy.github.io/SurchPort/' target="_blank" rel="noopener noreferrer">
+                  <img src={surchport} className='icon-portfolio' alt="SurchPort" title="See my GitHub" />
+                </a>
 
                 <p>
                   A Better Way to Discover Your New Favorite Spot. It allows users to Search, Compare, and Save any place you would ever want to visit.
@@ -88,8 +93,11 @@ export default class Portfolio extends React.Component {
               TrainTimes
             </h3>
 
-              <Thumbnail src='../imgs/traintimes.png' alt='TrainTimes' target="_blank" rel="noopener noreferrer" href='https://jonathanansley.github.io/TrainTimes'>
-                <img src={traintimes} className='icon-portfolio' alt="TrainTimes app on GitHub pages" />
+              <Thumbnail>
+
+                <a href='https://jonathanansley.github.io/TrainTimes' target="_blank" rel="noopener noreferrer">
+                  <img src={traintimes} className='icon-portfolio' alt="TrainTimes" title="See my GitHub" />
+                </a>
 
                 <p>
                   Incorporates Firebase to host arrival and departure data. Retrieves and manipulates this information with Moment.js.
@@ -111,8 +119,6 @@ export default class Portfolio extends React.Component {
           </Row>
 
         </Grid>
-
-      );
 
       </div>
 
