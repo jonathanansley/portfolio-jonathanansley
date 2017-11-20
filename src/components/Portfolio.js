@@ -31,7 +31,7 @@ export default class Portfolio extends React.Component {
               <Thumbnail>
 
                 <a href="https://fierce-reef-37071.herokuapp.com" target="_blank" rel="noopener noreferrer">
-                  <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket" title="See my GitHub" />
+                  <img src={shoemarket} className='icon-portfolio' alt="ShoeMarket" title="Open the app" />
                 </a>
 
                 <p>
@@ -65,7 +65,7 @@ export default class Portfolio extends React.Component {
               <Thumbnail>
 
                 <a href='https://johnsaugy.github.io/SurchPort/' target="_blank" rel="noopener noreferrer">
-                  <img src={surchport} className='icon-portfolio' alt="SurchPort" title="See my GitHub" />
+                  <img src={surchport} className='icon-portfolio' alt="SurchPort" title="Open the app" />
                 </a>
 
                 <p>
@@ -96,7 +96,7 @@ export default class Portfolio extends React.Component {
               <Thumbnail>
 
                 <a href='https://jonathanansley.github.io/TrainTimes' target="_blank" rel="noopener noreferrer">
-                  <img src={traintimes} className='icon-portfolio' alt="TrainTimes" title="See my GitHub" />
+                  <img src={traintimes} className='icon-portfolio' alt="TrainTimes" title="Open the app" />
                 </a>
 
                 <p>
